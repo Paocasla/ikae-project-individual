@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans';
+}
+
+/* INICIO HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-ikae {
+    width: 154px;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-enlaces {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+.item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+
+.search-item {
+    width: 24px;
+    height: auto;
+}
+/* FIN HEADER */
+
+/* INICIO MAIN SECTION1 */
+
+.main-section1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    }
+
+.main-section1--img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-section1--h1 {
+    position: absolute; 
+    top: 25%;
+    font-size: 96px;
+    color: grey;
+    justify-content: center;
+    }
+
+/* FIN MAIN SECTION1 */
+/* INICIO MAIN SECTION2 */
+
+.main-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.main-section2--div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    width: 376px;
+    height: 396px;
+    }
+
+.main-section2--div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 227px;
+    height: 396px;
+    }
+
+h2 {
+    color: #54565B;
+    }
+h3 {
+    color: grey;
+    }
+p {
+    color: grey;
+    }
+
+.about-us {
+    color: #54565B;
+    }
+
+
+.icon {
+    width: 50px;
+    height: auto;
+    }
+.icon-description {
+    color: #54565B;
+    }
+
+.main-section2--div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    }
+
+.img-section2--div3 {
+    width: 373px;
+    height: 396px;
+    }
+
+/* FIN MAIN SECTION2 */
+
+/* INICIO MAIN SECTION3 */
+
+.main-section3 {
+    display: flex;
+    flex-direction: column; 
+    }
+
+.main-section3-gallery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    }
+
+.main-section3--gallery-item {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    overflow: hidden;
+    }
+
+.img-kitchen,
+.img-bathroom,
+.img-bedroom, 
+.img-livingroom {
+    justify-content: center;
+    align-items: center;
+    height: 634px;
+    width: 100%;
+    }
+
+.img-kitchen:hover,
+.img-bathroom:hover,
+.img-bedroom:hover, 
+.img-livingroom:hover { 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: 4s ease-out;
+    }
+
+.img-kitchen:hover,
+.img-bathroom:hover,
+.img-bedroom:hover, 
+.img-livingroom:hover { 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: 4s ease-out;
+    }
+
+.phototitle {
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 60px;
+    font-weight: bold;
+    }
+
+/* INICIO FOOTER */
+.footer {
+    display: flex;
+    }
+.p-footer {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    }
+/* FIN FOOTER */
