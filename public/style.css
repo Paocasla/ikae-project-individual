@@ -148,32 +148,22 @@ p {
     overflow: hidden;
     }
 
-.img-kitchen,
-.img-bathroom,
-.img-bedroom, 
-.img-livingroom {
+    .img-kitchen,
+    .img-bathroom,
+    .img-bedroom, 
+    .img-livingroom {
     justify-content: center;
     align-items: center;
     height: 634px;
     width: 100%;
+    -webkit-filter: brightness(60%)
     }
 
-.img-kitchen:hover,
-.img-bathroom:hover,
-.img-bedroom:hover, 
-.img-livingroom:hover { 
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-        transition: 4s ease-out;
-    }
-
-.img-kitchen:hover,
-.img-bathroom:hover,
-.img-bedroom:hover, 
-.img-livingroom:hover { 
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-        transition: 4s ease-out;
+.main-section3--gallery-item:hover img { 
+    -webkit-transform: scale(1.5);
+    -webkit-filter: brightness(100%);
+    transform: scale(1.5);
+    transition: 4s ease-out;
     }
 
 .phototitle {
@@ -183,6 +173,11 @@ p {
     color: #f3f3f3;
     font-size: 60px;
     font-weight: bold;
+    opacity: 1;
+    }
+
+.main-section3--gallery-item:hover .phototitle { 
+    opacity: 0;
     }
 
 /* INICIO FOOTER */
